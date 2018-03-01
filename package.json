@@ -1,0 +1,21 @@
+{
+  "name": "immutable_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1",
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -e ts -w index.ts -x npm run watch:serve",
+    "watch:serve": "ts-node --inspect index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
